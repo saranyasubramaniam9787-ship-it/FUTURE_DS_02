@@ -102,16 +102,24 @@ AND OrderAmountHikeFromlastYear > 0;
 
 The following business questions were explored during the analysis:
 
+## 🔍 Exploratory Data Analysis (EDA)
 
-Question	Visualization
-Which login devices have highest churn?	Bar chart by device type
-How does satisfaction score affect churn?	Churn rate by satisfaction score
-Do new customers churn more than loyal ones?	Churn by tenure group
-Does coupon usage improve retention?	Churn rate by coupon usage
-How does inactivity predict churn?	Order activity by days since last order
-Does app engagement matter?	Churn rate by hours spent on app
-Which payment methods retain best?	Churn by preferred payment mode
+The following business questions were explored during the analysis:
 
+| Business Question | Visualization Used |
+|-------------------|-------------------|
+| Which login devices have the highest churn? | Bar chart by device type |
+| How does satisfaction score affect churn? | Churn rate by satisfaction score |
+| Do new customers churn more than loyal customers? | Churn by tenure group |
+| Does coupon usage improve retention? | Churn rate by coupon usage |
+| How does inactivity predict churn? | Order activity by days since last order |
+| Does app engagement matter? | Churn rate by hours spent on app |
+| Which payment methods retain customers best? | Churn by preferred payment mode |
+| Which product categories contribute the highest churn? | Churn count by preferred order category |
+| Which city tiers have the highest churn? | Churn count by city tier |
+| Does order frequency affect churn? | Churn by order count group |
+| Does warehouse distance influence churn? | Churn by warehouse-to-home distance |
+| Which gender contributes more to churn? | Churn count by gender |
 
 ## 💡 Key Insights
 
