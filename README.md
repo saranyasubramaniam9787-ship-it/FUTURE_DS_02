@@ -102,10 +102,6 @@ AND OrderAmountHikeFromlastYear > 0;
 
 The following business questions were explored during the analysis:
 
-## 🔍 Exploratory Data Analysis (EDA)
-
-The following business questions were explored during the analysis:
-
 | Business Question | Visualization Used |
 |-------------------|-------------------|
 | Which login devices have the highest churn? | Bar chart by device type |
