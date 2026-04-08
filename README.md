@@ -59,7 +59,7 @@ Source: The dataset was obtained from a publicly available source and used only 
 * **Database:** MySQL
 * **Visualization:** Power BI
 * **Analysis:** DAX Measures, Calculated Columns
-* **Documentation:** PDF Reports, Markdown
+* **Documentation:** PDF Reports,Microsoft Word
 
 ## 🧹 Data Cleaning & Preparation
 
