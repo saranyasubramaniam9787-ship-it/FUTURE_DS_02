@@ -150,11 +150,10 @@ Based on the analysis, the following actions are recommended:
 ### Setup Instructions
 
 ```bash
-# Clone the repository
 git clone https://github.com/saranyasubramaniam9787-ship-it/FUTURE_DS_02.git
 
-# Open the project folder
-cd ecommerce-churn-analysis
+# Open the project folder (MUST match the repo name)
+cd FUTURE_DS_02 
 ```
 
 ### Run the Analysis
