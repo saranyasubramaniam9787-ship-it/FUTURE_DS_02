@@ -30,7 +30,7 @@ Identify key churn drivers and provide actionable insights to improve customer r
 
 The digital commerce platform is experiencing a high churn rate (**~28%**), impacting repeat purchases and long-term revenue.
 
-### Key Challenges:
+## Key Challenges:
 - Lack of clarity on which customer segments contribute most to churn  
 - Uncertainty about whether new or existing customers churn more  
 - Weak understanding of how satisfaction scores relate to churn  
@@ -66,21 +66,19 @@ The dataset contains **1500+ customer records** with demographic and transaction
 
 ## 🧹 Data Cleaning & Transformation
 
-### 1. Handling Missing Values
+## 1. Handling Missing Values
 - Numeric columns → Filled with **Mean**
 - Categorical columns → Filled with **Mode**
 - Satisfaction Score → Filled with **Median (3)**
 
-### 2. Standardization & Fixes
+## 2. Standardization & Fixes
 - Unified inconsistent labels (e.g., *Phone → Mobile*)
 - Outliers capped:
   - `WarehouseToHome` ≤ 100 km  
   - `Tenure` ≤ 60 months  
 - Logical corrections applied for inconsistent records
 
-### 3. Feature Engineering (DAX)
-
-```DAX
+## 3. Feature Engineering (DAX)
 -- Churn Rate
 Churn Rate = DIVIDE(SUM(Total_Churn), SUM(Total_Customers))
 
@@ -89,7 +87,7 @@ Tenure Group = SWITCH(TRUE(),
     [Tenure] <= 6, "0-6 Months", 
     [Tenure] <= 12, "6-12 Months", 
     "12+ Months")
-```markdown
+
 ## 💡 Key Insights
 
 ### 🏆 Churn Drivers
