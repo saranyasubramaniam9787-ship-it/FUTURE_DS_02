@@ -85,6 +85,7 @@ Tenure Group = SWITCH(TRUE(),
     [Tenure] <= 6, "0-6 Months", 
     [Tenure] <= 12, "6-12 Months", 
     "12+ Months")
+
 ## 💡 Key Insights
 
 ### 🏆 Churn Drivers
