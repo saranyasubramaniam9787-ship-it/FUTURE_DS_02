@@ -100,6 +100,12 @@ Tenure Group = SWITCH(TRUE(),
 - **Inactivity Risk:** 10+ days inactivity = high churn risk.
 - **Category Stress:** Mobile Phones & Fashion show high churn.
 - **City Impact:** Tier 1 cities have higher churn.
+
+ ### 🚀 Recommendations
+- Strong onboarding for first 6 months
+- 24-hour complaint callback
+- Family account feature
+- Win-back campaigns
   
 ### Conclusion
 
@@ -114,9 +120,5 @@ To effectively reduce churn, the business must shift from a reactive to a **proa
 - Addressing complaints with **speed and personalization**
 
 By leveraging these insights, the platform can enhance **customer lifetime value, increase retention, and drive sustainable revenue growth**.
-### 🚀 Recommendations
-- Strong onboarding for first 6 months
-- 24-hour complaint callback
-- Family account feature
-- Win-back campaigns
+
 
