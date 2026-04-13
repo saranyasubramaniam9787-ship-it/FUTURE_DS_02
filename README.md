@@ -100,7 +100,20 @@ Tenure Group = SWITCH(TRUE(),
 - **Inactivity Risk:** 10+ days inactivity = high churn risk.
 - **Category Stress:** Mobile Phones & Fashion show high churn.
 - **City Impact:** Tier 1 cities have higher churn.
+  
+### Conclusion
 
+This analysis reveals that customer churn is largely driven by **early-stage disengagement rather than long-term dissatisfaction**. The highest risk lies within the first **0–6 months**, where customers fail to build strong engagement with the platform. Behavioral signals such as **low order frequency, increased inactivity, and mobile usage friction** further accelerate churn.
+
+Interestingly, churn is not solely linked to poor satisfaction scores, indicating that **customer experience gaps and lack of continuous value delivery** play a bigger role than traditional feedback metrics suggest.
+
+To effectively reduce churn, the business must shift from a reactive to a **proactive retention strategy**—focusing on:
+- Strengthening **early customer onboarding**
+- Improving **mobile user experience**
+- Actively re-engaging **inactive users**
+- Addressing complaints with **speed and personalization**
+
+By leveraging these insights, the platform can enhance **customer lifetime value, increase retention, and drive sustainable revenue growth**.
 ### 🚀 Recommendations
 - Strong onboarding for first 6 months
 - 24-hour complaint callback
