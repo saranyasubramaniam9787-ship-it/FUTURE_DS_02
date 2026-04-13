@@ -1,10 +1,10 @@
-# 📊 Customer Churn Analysis
+## Customer Churn Analysis
 
 A comprehensive **Power BI analysis of customer churn behavior** on a digital platform. This project identifies key drivers of attrition—ranging from demographic profiles to engagement metrics—to help the business design targeted retention strategies and reduce customer loss.
 
 ---
 
-## 📖 Table of Contents
+### 📖 Table of Contents
 - [Project Overview](#-project-overview)
 - [Problem Statement](#-problem-statement)
 - [Data Source & Attributes](#-data-source--attributes)
@@ -16,7 +16,7 @@ A comprehensive **Power BI analysis of customer churn behavior** on a digital pl
 
 ---
 
-## 📊 Project Overview
+### 📊 Project Overview
 
 **Objective:**  
 To analyze customer churn behavior using behavioral and demographic metrics such as login device, satisfaction score, tenure, and order activity.
@@ -26,11 +26,11 @@ Identify key churn drivers and provide actionable insights to improve customer r
 
 ---
 
-## 🔍 Problem Statement 
+### 🔍 Problem Statement 
 
 The digital commerce platform is experiencing a high churn rate (**~28%**), impacting repeat purchases and long-term revenue.
 
-## Key Challenges:
+### Key Challenges:
 - Lack of clarity on which customer segments contribute most to churn  
 - Uncertainty about whether new or existing customers churn more  
 - Weak understanding of how satisfaction scores relate to churn  
@@ -38,7 +38,7 @@ The digital commerce platform is experiencing a high churn rate (**~28%**), impa
 
 ---
 
-## 🗂️ Data Source & Attributes
+### 🗂️ Data Source & Attributes
 
 The dataset contains **1500+ customer records** with demographic and transactional features:
 
@@ -55,7 +55,7 @@ The dataset contains **1500+ customer records** with demographic and transaction
 
 ---
 
-## 🛠️ Tools & Technologies
+### 🛠️ Tools & Technologies
 
 - **MySQL** → Data cleaning & preprocessing  
 - **Power BI** → Dashboard & visualization  
@@ -64,21 +64,21 @@ The dataset contains **1500+ customer records** with demographic and transaction
 
 ---
 
-## 🧹 Data Cleaning & Transformation
+### 🧹 Data Cleaning & Transformation
 
-## 1. Handling Missing Values
+### 1. Handling Missing Values
 - Numeric columns → Filled with **Mean**
 - Categorical columns → Filled with **Mode**
 - Satisfaction Score → Filled with **Median (3)**
 
-## 2. Standardization & Fixes
+### 2. Standardization & Fixes
 - Unified inconsistent labels (e.g., *Phone → Mobile*)
 - Outliers capped:
   - `WarehouseToHome` ≤ 100 km  
   - `Tenure` ≤ 60 months  
 - Logical corrections applied for inconsistent records
 
-## 3. Feature Engineering (DAX)
+### 3. Feature Engineering (DAX)
 -- Churn Rate
 Churn Rate = DIVIDE(SUM(Total_Churn), SUM(Total_Customers))
 
@@ -88,7 +88,7 @@ Tenure Group = SWITCH(TRUE(),
     [Tenure] <= 12, "6-12 Months", 
     "12+ Months")
 
-## 💡 Key Insights
+### 💡 Key Insights
 
 ### 🏆 Churn Drivers
 - **The Critical Window:** New customers (0–6 months tenure) contribute the most to churn.
